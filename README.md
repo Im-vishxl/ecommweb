@@ -41,6 +41,8 @@ This project consists of a front end built with React and a back end developed w
 - **/public**: Frontend assets like images and icons.
 - **/src**: React components and pages.
 
+## Screenshots
+
 ![image alt](https://github.com/Im-vishxl/ecommweb/blob/e0e842e0c0ee3e129975267e931f8743b36b9421/homepage.png)
 
 
