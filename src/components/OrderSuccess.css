@@ -1,0 +1,91 @@
+
+.order-success-container {
+    height: 480px;
+    width: 100%;
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.Orderdetails-card{
+    position: absolute;
+    top: 70px;
+    width: 200vh;
+    height: 50vh;
+    border-radius: 5px;
+    background-color: rgb(204, 198, 198);
+}
+
+
+
+.order-success-container h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.order-success-container h3,
+.order-success-container p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.order-success-container button {
+    left: 40px;
+    margin-top: 430px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.home-btn{
+    top: 380px;
+}
+
+.order-success-container button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .order-success-container h2 {
+        font-size: 1.5em;
+    }
+    
+    .order-success-container h3,
+    .order-success-container p {
+        font-size: 0.9em;
+    }
+
+    .Orderdetails-card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .home-btn{
+        width: 200px;
+        align-items: center;
+        left: 30px;
+
+
+    }
+}
+
+@media (max-width: 480px) {
+    .order-success-container h2 {
+        font-size: 1.3em;
+    }
+
+    .Orderdetails-card {
+        top: 135px;
+        width: 39vh;
+        height: 260px;
+        padding: 10px;
+    }
+
+    .home-btn{
+        top: 400px;
+        z-index: 1;
+    }
+}
